@@ -1,0 +1,22 @@
+h1 {
+  color:#E7C3EE;
+    font-family: "Courier New Header"monospace;
+    font-size: 25px;
+}
+
+h2 {
+  color:#8cb1e6;
+    font-family: "Courier New body copy" monospace;
+    font-size:22px;
+}
+
+h3 {
+  color:#ed9fb0;
+    font-family: "Courier New body copy" monospace;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    margin-right: 50px;
+    margin-left: 100px;
+
+}
