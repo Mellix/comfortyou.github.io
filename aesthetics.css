@@ -1,22 +1,58 @@
 h1 {
-  color:#E7C3EE;
-    font-family: "Courier New Header"monospace;
-    font-size: 25px;
+  color: white;
+  font-family: 'Bentham';
+  font-size: 25px;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  text-shadow: 2px 2px grey;
 }
 
 h2 {
-  color:#8cb1e6;
-    font-family: "Courier New body copy" monospace;
-    font-size:22px;
+  color: #d5ecf6;
+  font-family: 'Bentham';
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 35px;
+  margin-bottom: 75px;
+  margin-right: 25px;
+  margin-left: 700px;
 }
 
 h3 {
-  color:#ed9fb0;
-    font-family: "Courier New body copy" monospace;
-    font-size: 20px;
-    margin-top: 25px;
-    margin-bottom: 75px;
-    margin-right: 50px;
-    margin-left: 100px;
+  color: #d5dcf6;
+  font-size: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px #B0B7D1;
+}
+
+h4 {
+  color: #dfd5f6;
+}
+
+h5 {
+  color: #f0d5f6;
+}
+
+h6 {
+  color: #f6d5ec;
+}
+
+h7 {
+  color: #f6d5dc;
+}
+
+h8 {
+  color: black;
+}
+
+div.a {
+  text-align: left;
+  color: #f0d5f6;
+  margin-left: 50px;
+  font-family: 'Bentham';
+  font-size: 22px;
+  text-shadow: 2px 2px #CBB8CF;
 
 }
