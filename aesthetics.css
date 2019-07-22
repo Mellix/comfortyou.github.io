@@ -50,9 +50,25 @@ h8 {
 div.a {
   text-align: left;
   color: #f0d5f6;
-  margin-left: 50px;
+  margin-top: 20px;
   font-family: 'Bentham';
-  font-size: 22px;
+  font-size: 20px;
   text-shadow: 2px 2px #CBB8CF;
+}
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
