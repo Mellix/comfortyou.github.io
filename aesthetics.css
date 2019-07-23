@@ -1,16 +1,17 @@
 h1 {
   color: white;
-  font-family: 'Bentham';
-  font-size: 25px;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 45px;
   margin-top: 45px;
   margin-bottom: 35px;
   text-shadow: 2px 2px grey;
+  text-decoration: underline;
 }
 
 h2 {
   color: #d5ecf6;
-  font-family: 'Bentham';
-  font-size: 20px;
+  font-family: 'Merienda', cursive;
+  font-size: 22px;
   text-align: justify;
   margin-top: 35px;
   margin-bottom: 75px;
@@ -23,37 +24,69 @@ h3 {
   font-size: 20px;
   margin-right: 150px;
   margin-left: 150px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
   text-shadow: 2px 2px #B0B7D1;
+  font-family: 'Merienda', cursive;
 }
 
 h4 {
   color: #dfd5f6;
+  font-size: 22px;
+  margin-right: 130px;
+  margin-left: 90px;
+  margin-bottom: 45px;
+  font-family: 'Merienda', cursive;
 }
 
 h5 {
   color: #f0d5f6;
+  font-family: 'Merienda', cursive;
 }
 
 h6 {
   color: #f6d5ec;
+  font-family: 'Merienda', cursive;
 }
 
 h7 {
   color: #f6d5dc;
+  font-family: 'Merienda', cursive;
 }
 
 h8 {
   color: black;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  text-align: left;
+  text-decoration: underline;
+  font-family: 'Gamja Flower', cursive;
+}
+
+h9 {
+  color: black;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  text-align: left;
+  text-shadow: 2px 2px #CBB8CF;
+  text-decoration: underline;
+  font-family: 'Merienda', cursive;
 }
 
 div.a {
   text-align: left;
   color: #f0d5f6;
   margin-top: 20px;
-  font-family: 'Bentham';
+  margin-bottom: 10px;
+  margin-left: 90px;
+  font-family: 'Merienda', cursive;
   font-size: 20px;
   text-shadow: 2px 2px #CBB8CF;
+  -webkit-column-gap: 25px;
+  letter-spacing: 2px;
 }
 
 .column {
@@ -71,4 +104,80 @@ div.a {
   .column {
     width: 100%;
   }
+}
+
+{
+  box-sizing: border-box;
+}
+/*for the different disorders */
+.disorders {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.types:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*for depression table */
+.depression {
+  float: left;
+  width: 50%;
+}
+
+.press:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .depression {
+    width: 100%;
+  }
+}
+
+/*for depression info */
+.different {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.pressx:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* definitions of diff types of anxiety and depression when hovered over */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 450px;
+  background-color: #BAC9DA;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-size: 19px;
+  font-family: 'Merienda', cursive;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
