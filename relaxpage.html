@@ -3,22 +3,56 @@
 <link rel="stylesheet" href="relax_stylesheet.css">
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
   <title>
     Relax
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="relax_script.js"></script>
 </head>
-  <body bgcolor="#f2cbe6">
+  <body>
     <h1>Peace for you</h1>
-    <p>Feeling stressed? Click on the dropdowns for relaxing pictures and poems</p>
-
-    <div class="row">
+    <p>Feeling stressed? Click on the buttons to <strong>show</strong> or <strong>hide</strong> relaxing pictures and poems</p>
+<!--button for animal pics-->
+    <button type="button" onclick="animalFunction()">Cute Animals!</button>
+<!--Photos for animals-->
+    <div class="row" id="animalPics" style="display:none;">
       <div class="column">
-        <img src="https://i.pinimg.com/originals/ce/09/c9/ce09c99bf37eca9b3686b4ac4f9f7d9f.jpg">
-        <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/cute-animal-photos-love-life-1.jpg">
-        <img src="https://data.whicdn.com/images/315732371/original.jpg">
-        <img src="https://i.pinimg.com/originals/4a/22/c0/4a22c010e412d7376305e0471d276efb.jpg">
+        <img src="https://i.pinimg.com/originals/ce/09/c9/ce09c99bf37eca9b3686b4ac4f9f7d9f.jpg" style="width:100%;">
+        <img src="http://www.four-cents.com/sites/default/files/baby-bun-gray.jpg" style="width:100%">
+        <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-07/29/10/enhanced/webdr04/enhanced-22150-1406642497-1.jpg" style="width:100%">
       </div>
-</body>
+
+      <div class="column">
+        <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/cute-animal-photos-love-life-1.jpg" style="width:100%">
+        <img src="https://i.pinimg.com/originals/4a/22/c0/4a22c010e412d7376305e0471d276efb.jpg" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="https://data.whicdn.com/images/315732371/original.jpg" style="width:100%">
+        <img src="http://www.earthporm.com/wp-content/uploads/2014/12/cute-reptiles-101__605.jpg" style="width:100%">
+        <img src="https://i.pinimg.com/originals/15/db/3a/15db3a64765efc0db36495c03e25c0cc.jpg" style="width:100%">
+      </div>
+    </div>
+    <p></p>
+<!--button for landscapes-->
+    <button type="button" onclick="landscapesFunction()">Calming Landscapes</button>
+<!--photos of landscapes-->
+    <div class="row" id="landscapes" style="display:none;">
+      <div class="column">
+        <img src="https://worldinsidepictures.com/wp-content/uploads/2013/11/amazing-nature-landscapes-22.jpg">
+        <img src="http://40.media.tumblr.com/c9098f3942d16cc2a495a4e439cf8ab5/tumblr_o1mxejmHpJ1smjk7ro1_r1_1280.jpg">
+      </div>
+
+      <div class="column">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/K2%2C_Mount_Godwin_Austen%2C_Chogori%2C_Savage_Mountain.jpg">
+        <img src="https://www.nationalgeographic.com/content/dam/photography/PROOF/2017/April/epic-landscapes/09-9226610_uploadsmember665562yourshot-665562-9226610jpg_igdjhxksrjifxjzu4rgbsw37bhp3eflutfvvbpyjwjhzlmh4iziq_3000x2000.jpg">
+      </div>
+
+      <div class="column">
+        <img src="http://cdn.wallpapersafari.com/15/94/WjV8ul.jpg">
+        <img src="http://www.newdesignfile.com/postpic/2012/10/beautiful-landscape-united-states-lighthouses_132696.jpg">
+
+  </body>
 </html>

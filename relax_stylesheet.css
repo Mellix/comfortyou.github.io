@@ -1,15 +1,34 @@
 h1 {
   text-align: center;
   color: white;
+  font-family: 'Gamja Flower', cursive;
 }
 
 body {
   text-align: center;
   color: white;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Merienda', cursive;
+  background-image:url(https://static.tumblr.com/2078ae815f34332fcc9c38661a7f0d3c/xokyadj/ennolqzh4/tumblr_static_2cjmg3bhgf8k0k08w0goswoso.png);
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
+button {
+  background-color: #d5ecf6;
+  border: none;
+  color: #e996d0;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'Merienda', cursive;
+  margin: 4px 2px;
+  transition: 0.3s;
+  width:100%
+}
 
+button:hover {
+  background-color: #96d0e9;
+  color: white;
+}
 
 
 /*This is the formatting for the flexbox */
@@ -27,9 +46,9 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
   padding: 0 4px;
 }
 
@@ -48,7 +67,7 @@ body {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other*/
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
