@@ -133,6 +133,12 @@ div.a {
   clear: both;
 }
 
+@media screen and (max-width: 600px) {
+  .disorders {
+    width: 100%;
+  }
+}
+
 /*for depression table */
 .depression {
   float: left;
@@ -162,6 +168,12 @@ div.a {
   content: "";
   display: table;
   clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .different {
+    width: 100%;
+  }
 }
 
 /* definitions of diff types of anxiety and depression when hovered over */
@@ -213,3 +225,28 @@ div.a {
   display: table;
   clear: both;
 }
+
+@media screen and (max-width: 600px) {
+  .hotlines {
+    width: 100%;
+  }
+}
+
+/*for helpful videos*/
+.videos {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.helpful:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .videos {
+    width: 100%;
