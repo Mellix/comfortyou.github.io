@@ -5,7 +5,7 @@ h1 {
   margin-top: 45px;
   margin-bottom: 35px;
   text-shadow: 2px 2px grey;
-  text-decoration: underline;
+  text-decoration: underline overline;
 }
 
 h2 {
@@ -31,21 +31,32 @@ h3 {
 
 h4 {
   color: #dfd5f6;
-  font-size: 22px;
+  font-size: 18px;
   margin-right: 130px;
-  margin-left: 90px;
+  margin-left: 100px;
   margin-bottom: 45px;
   font-family: 'Merienda', cursive;
 }
 
-h5 {
-  color: #f0d5f6;
+h5 { /* was #f0d5f6(pinkish tone) and #f6dfd5 (beige)*/
+  color: #FCE3D8;
   font-family: 'Merienda', cursive;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 25px;
+
 }
 
-h6 {
-  color: #f6d5ec;
+
+h6 { /* b393de(purple) CEC7E5(lavender tone) for resources? f6d5ec*/
+  color: #A196C6;
+  text-shadow: 2px 2px lavender;
   font-family: 'Merienda', cursive;
+  font-size: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 45px
+
 }
 
 h7 {
@@ -55,7 +66,7 @@ h7 {
 
 h8 {
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 3px;
@@ -165,8 +176,8 @@ div.a {
   background-color: #BAC9DA;
   color: #fff;
   text-align: center;
-  border-radius: 10px;
-  padding: 10px 0;
+  border-radius: 6px; /*10*/
+  padding: 5px 0; /*10*/
   font-size: 19px;
   font-family: 'Merienda', cursive;
 
@@ -180,4 +191,25 @@ div.a {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+
+/* Resources Page!!!! */
+#grad {
+  height: 200px;
+  background-color: #bfcdf0;
+  background-image:linear-gradient(#bfcdf0, #cabff0, #e2bff0);
+}
+
+/*for the different disorders */
+.hotlines {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.hot:after {
+  content: "";
+  display: table;
+  clear: both;
 }
