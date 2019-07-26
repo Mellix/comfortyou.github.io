@@ -1,0 +1,136 @@
+ {
+  box-sizing: border-box;
+}
+/* Navigation Menu */
+.nav_menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav_menu a {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.nav_menu a:hover {
+    color: powderBlue;
+}
+
+/* Background */
+body {
+  background-color: #3B3350;
+}
+.gif {
+    background-image: url("saturn.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: -60px 0 0 0;
+    padding: 50% 0 0 0;
+}
+
+.title {
+  width:100%;
+	min-height:100%;
+}
+
+#logo {
+  width:40%;
+	top:50%;
+	left:30%;
+	margin:0;
+	padding:0;
+	display:block;
+	position:absolute;
+	color: white;
+	transform:translate(0,-30%);
+}
+#scroll {
+  width:10%;
+	top:50%;
+	left:60%;
+	margin:0;
+	padding:0;
+	display:block;
+	position:absolute;
+	color: white;
+	transform:translate(-5px,205px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* About Section*/
+.AboutWebsite {
+  background-color: #62436C;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 10em;
+}
+.AboutWebsite h2{
+  margin:0;
+  font-family: "Gamja Flower";
+}
+.AboutWebsite {
+  font-family: "Merienda";
+  font-size: 18px
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 460px;
+  background-color: #62436C;
+  font-family: "Merienda";
+  color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #62436C;
+  font-family: "Merienda";
+  color: white;
+}
+.row h2, .column h2 {
+  font-family: "Gamja Flower";
+  text-align: center;
+}
+.row p, .column p {
+  font-size: 15px;
+  text-align: center;
+}
+#amanda {
+  width:relative;
+  height:150px;
+  display: flex;
+  margin: 0;
+  padding:5px;
+  border-radius: 15px;
+}
+#olivia {
+  width:relative;
+  height: 150px;
+  flex: 30%;
+  margin: 0;
+  padding:0;
+  border-radius: 15px;
+}
+#zara {
+  width:relative;
+  height:150px;
+  flex:30%;
+  margin: 0;
+  padding:0;
+  border-radius: 15px;
+}
