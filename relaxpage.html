@@ -5,6 +5,8 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|M+PLUS+Rounded+1c:400,700|Merienda&display=swap" rel="stylesheet">
   <title>
     Relax
   </title>
@@ -12,10 +14,35 @@
   <script type="text/javascript" src="relax_script.js"></script>
 </head>
   <body>
+    <!-- navigation menu for website layout -->
+        <div class = "nav_menu">
+            <a href = "#">Home</a>
+            <a href = "#">Info</a>
+            <a href = "#">Tips</a>
+            <a href= "#">Peace</a>
+            <a href= "#">Talk</a>
+            <a href= "#">Resources</a>
+        </div><br>
     <h1>Peace for you</h1>
-    <p>Feeling stressed? Click on the buttons to <strong>show</strong> or <strong>hide</strong> relaxing pictures and poems</p>
+    <!-- Music -->
+        <div>
+          <audio id="playlist">
+            <source src="coffee.mp3" id="mp3Source" type="audio/mpeg" />
+            <source src="spirited-away.mp3" id="mp3Source" type="audio/mpeg" />
+            <source src="flowers.mp3" id="mp3Source" type="audio/mpeg" />
+            <source src="whirling.mp3" id="mp3Source" type="audio/mpeg" />
+            <source src="pixelstars.mp3" id="mp3Source" type="audio/mpeg" />
+            <p>If you are seeing this, the audio player is unsupported in this browser.</p>
+          </audio>
+          <div>
+            <i class="material-icons md-36" onclick="document.getElementById('playlist').play()">play_circle_outline</i>
+            <i class="material-icons md-36" onclick="document.getElementById('playlist').pause()">pause_circle_outline</i>
+            <i class="material-icons md-36" onclick="document.getElementById('playlist').muted=!document.getElementById('playlist').muted">volume_mute</i>
+          </div>
+        </div>
+    <p>Feeling stressed? Click on the buttons below to <strong>show</strong> or <strong>hide</strong> relaxing pictures and poems</p>
 <!--button for animal pics-->
-    <button type="button" onclick="animalFunction()">Cute Animals!</button>
+    <button id="regbutton" type="button" onclick="animalFunction()">Cute Animals!</button>
 <!--Photos for animals-->
     <div class="row" id="animalPics" style="display:none;">
       <div class="column">
@@ -37,7 +64,7 @@
     </div>
     <p></p>
 <!--button for landscapes-->
-    <button type="button" onclick="landscapesFunction()">Calming Landscapes</button>
+    <button id="regbutton" type="button" onclick="landscapesFunction()">Calming Landscapes</button>
 <!--photos of landscapes-->
     <div class="row" id="landscapes" style="display:none;">
       <div class="column">
@@ -53,6 +80,45 @@
       <div class="column">
         <img src="http://cdn.wallpapersafari.com/15/94/WjV8ul.jpg">
         <img src="http://www.newdesignfile.com/postpic/2012/10/beautiful-landscape-united-states-lighthouses_132696.jpg">
+      </div>
+    </div>
+    <p></p>
+<!--button for calming gifs-->
+    <button id="regbutton" type="button" onclick="calming_gifFunction()">Calming GIFs</button>
+<!--calming gifs-->
+    <div class="row" id="calming_gifs" style="display:none;">
+      <div class="column">
+        <img src="https://media.giphy.com/media/ARkTrAS1wXPji/giphy-downsized-large.gif">
+        <img src="http://cdn.playbuzz.com/cdn/1763c248-c050-4ed4-a306-0a03b6858650/b02d3315-e2c3-4e3b-9922-86bdbc2c8b98.gif">
+        <img src="https://media.giphy.com/media/l4pT3HDdzq7E0APYc/giphy.gif">
+      </div>
+      <div class="column">
+        <img src="https://media1.tenor.com/images/ebe54d99472d351a99543ce7d065c0ec/tenor.gif?itemid=11424016">
+        <img src="https://media2.giphy.com/media/GSuTEhxARlKXm/giphy.gif">
+      </div>
+      <div class="column">
+      <img src="https://i.pinimg.com/originals/6c/11/e3/6c11e35213adf79ef32bc31f75897f58.gif">
+      <img src="https://media.giphy.com/media/xUKcuFL50CIgK4mbFR/giphy.gif">
+      </div>
+    </div>
+    <p></p>
+<!--button for poems-->
+    <button id="regbutton" type="button" onclick="poemFunction()">Poems & Mantras</button>
+<!--poems-->
+    <div class="row" id="poems" style="display:none;">
+      <div class="column">
+        <img src="perfect.png">
+        <img src="https://66.media.tumblr.com/9f18877f2d27b11c34a39e723ef0cadf/tumblr_n2wr8oncPQ1qc4uvwo1_500.jpg">
+      </div>
+      <div class="column">
+        <img src="https://studybreaks.com/wp-content/uploads/2018/06/rupi.jpg">
+        <img src="https://data.whicdn.com/images/308719117/original.jpg?t=1520715783">
+      </div>
+      <div class="column">
+        <img src="https://i.pinimg.com/originals/e4/44/76/e444766034bf2bb646bcd9f9145e48b8.png">
+      </div>
+    </div>
+
 
   </body>
 </html>

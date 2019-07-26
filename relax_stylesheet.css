@@ -1,7 +1,28 @@
+/* Navigation Menu */
+.nav_menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav_menu a {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.nav_menu a:hover {
+    color: powderBlue;
+}
+
 h1 {
   text-align: center;
   color: white;
   font-family: 'Gamja Flower', cursive;
+  font-size: 48px;
 }
 
 body {
@@ -13,23 +34,40 @@ body {
   background-size:cover;
 }
 
-button {
+#regbutton {
   background-color: #d5ecf6;
-  border: none;
+  border-radius: 12px;
   color: #e996d0;
-  padding: 16px;
-  font-size: 16px;
+  padding: 18px;
+  font-size: 18px;
   font-family: 'Merienda', cursive;
   margin: 4px 2px;
   transition: 0.3s;
   width:100%
 }
 
-button:hover {
+#regbutton:hover {
   background-color: #96d0e9;
   color: white;
+  cursor: pointer;
 }
 
+i {
+  background-color: #e996d0;
+  margin: 4px 2px;
+  padding: 10px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+i:hover {
+  cursor: pointer;
+  background-color: #c761a9;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
 
 /*This is the formatting for the flexbox */
 * {
