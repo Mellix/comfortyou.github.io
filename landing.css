@@ -107,6 +107,7 @@ body {
   text-align: center;
 }
 .row p, .column p {
+  color: white;	
   font-size: 18px;
   text-align: center;
 }
