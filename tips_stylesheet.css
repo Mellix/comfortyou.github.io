@@ -1,0 +1,49 @@
+/* Navigation Menu */
+.nav_menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav_menu a {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.nav_menu a:hover {
+    color: powderBlue;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Gamja Flower", cursive;
+  font-size: 48px;
+}
+
+body {
+  text-align: center;
+  color: white;
+  font-family: "Padauk", sans-serif;
+  font-size: 25px;
+  background-image:url(https://static.tumblr.com/2078ae815f34332fcc9c38661a7f0d3c/xokyadj/ennolqzh4/tumblr_static_2cjmg3bhgf8k0k08w0goswoso.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+ol {
+  border: 10px white;
+  text-align: center;
+  color: white;
+  font-family: "Padauk", sans-serif;
+  font-size: 25px;
+}
