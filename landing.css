@@ -82,7 +82,7 @@ body {
   font-family: "Gamja Flower";
 }
 .AboutWebsite {
-  font-family: "Merienda";
+  font-family: "Padauk";
   font-size: 18px
 }
 .column {
@@ -91,7 +91,7 @@ body {
   padding: 10px;
   height: 460px;
   background-color: #62436C;
-  font-family: "Merienda";
+  font-family: "Padauk";
   color: white;
 }
 .row:after {
@@ -99,7 +99,7 @@ body {
   display: table;
   clear: both;
   background-color: #62436C;
-  font-family: "Merienda";
+  font-family: "Padauk";
   color: white;
 }
 .row h2, .column h2 {
