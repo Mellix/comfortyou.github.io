@@ -70,6 +70,13 @@ i:hover {
   font-size: 36px;
 }
 
+.static{
+    position:inherit;
+}
+
+.static:hover {
+    opacity:0;
+}
 /*This is the formatting for the flexbox */
 * {
   box-sizing: border-box;
