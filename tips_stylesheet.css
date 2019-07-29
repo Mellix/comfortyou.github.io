@@ -43,7 +43,27 @@ body {
 ol {
   border: 10px white;
   text-align: center;
-  color: white;
+  color: #665C92;
   font-family: "Padauk", sans-serif;
   font-size: 25px;
+  margin-bottom: 5px;
+}
+
+des {
+  border: 10px white;
+  text-align: center;
+  color: #7970A2;
+  font-family: "Padauk", sans-serif;
+  font-size: 20px;
+  margin-bottom: 150px;
+}
+
+div.box{
+  background-color: white;
+  width: 900px;
+  border: 15px solid #B2A5EA;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
 }
