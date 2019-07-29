@@ -33,3 +33,8 @@ function poemFunction() {
     x.style.display = "none";
   }
 }
+
+$("img", "#gifs-rows").hover(function() {
+  $('.preset-file').toggle();
+  $('.gif-file').toggle();
+});
