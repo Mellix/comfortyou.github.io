@@ -92,6 +92,7 @@ body {
   height: 460px;
   background-color: #62436C;
   font-family: "Padauk";
+  font-size: 18px;	
   color: white;
 }
 .row:after {
