@@ -105,6 +105,7 @@ body {
 .row h2, .column h2 {
   font-family: "Gamja Flower";
   text-align: center;
+  color: white;	
 }
 .row p, .column p {
   color: white;	
