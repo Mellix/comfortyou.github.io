@@ -10,8 +10,8 @@ h1 {
 
 h2 {
   color: #d5ecf6;
-  font-family: 'Merienda', cursive;
-  font-size: 22px;
+  font-family: 'Padauk', sans-serif;
+  font-size: 23px;
   text-align: justify;
   margin-top: 35px;
   margin-bottom: 75px;
@@ -21,27 +21,26 @@ h2 {
 
 h3 {
   color: #d5dcf6;
-  font-size: 20px;
+  font-size: 23px;
   margin-right: 150px;
   margin-left: 150px;
   margin-bottom: 45px;
-  text-shadow: 2px 2px #B0B7D1;
-  font-family: 'Merienda', cursive;
+  font-family: 'Padauk', sans-serif;
 }
 
 h4 {
   color: #dfd5f6;
-  font-size: 18px;
+  font-size: 23px;
   margin-right: 130px;
-  margin-left: 100px;
-  margin-bottom: 45px;
-  font-family: 'Merienda', cursive;
+  margin-left: 125px;
+  margin-bottom: 35px;
+  font-family: 'Padauk', sans-serif;
 }
 
 h5 { /* was #f0d5f6(pinkish tone) and #f6dfd5 (beige)*/
   color: #FCE3D8;
-  font-family: 'Merienda', cursive;
-  font-size: 18px;
+  font-family: 'Padauk', sans-serif;
+  font-size: 23px;
   text-align: center;
   margin-left: 25px;
 
@@ -50,9 +49,8 @@ h5 { /* was #f0d5f6(pinkish tone) and #f6dfd5 (beige)*/
 
 h6 { /* b393de(purple) CEC7E5(lavender tone) for resources? f6d5ec*/
   color: #A196C6;
-  text-shadow: 2px 2px lavender;
-  font-family: 'Merienda', cursive;
-  font-size: 20px;
+  font-family: 'Padauk', sans-serif;
+  font-size: 23px;
   margin-right: 150px;
   margin-left: 150px;
   margin-bottom: 45px
@@ -61,7 +59,7 @@ h6 { /* b393de(purple) CEC7E5(lavender tone) for resources? f6d5ec*/
 
 h7 {
   color: #f6d5dc;
-  font-family: 'Merienda', cursive;
+  font-family: 'Padauk', sans-serif;
 }
 
 h8 {
@@ -77,14 +75,32 @@ h8 {
 
 h9 {
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 150px;
-  text-align: left;
-  text-shadow: 2px 2px #CBB8CF;
+  text-align: center;
   text-decoration: underline;
-  font-family: 'Merienda', cursive;
+  font-family: 'Gamja Flower', cursive;
+}
+
+/* Navigation Menu */
+.nav_menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav_menu a {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.nav_menu a:hover {
+    color: powderBlue;
 }
 
 div.a {
@@ -93,9 +109,8 @@ div.a {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 90px;
-  font-family: 'Merienda', cursive;
-  font-size: 20px;
-  text-shadow: 2px 2px #CBB8CF;
+  font-family: 'Padauk', sans-serif;
+  font-size: 23px;
   -webkit-column-gap: 25px;
   letter-spacing: 2px;
 }
@@ -121,9 +136,10 @@ div.a {
   box-sizing: border-box;
 }
 /*for the different disorders */
-.disorders {
+#disorders {
   float: left;
   width: 33.33%;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -158,9 +174,10 @@ div.a {
 }
 
 /*for depression info */
-.different {
+#different {
   float: left;
   width: 33.33%;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -184,14 +201,14 @@ div.a {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 450px;
+  width: 500px;
   background-color: #BAC9DA;
   color: #fff;
   text-align: center;
-  border-radius: 6px; /*10*/
-  padding: 5px 0; /*10*/
-  font-size: 19px;
-  font-family: 'Merienda', cursive;
+  border-radius: 10px; /*10*/
+  padding: 10px 0; /*10*/
+  font-size: 20px;
+  font-family: 'Padauk', sans-serif;
 
   /* Position the tooltip */
   position: absolute;
@@ -208,8 +225,6 @@ div.a {
 
 /* Resources Page!!!! */
 #grad {
-  height: 200px;
-  background-color: #bfcdf0;
   background-image:linear-gradient(#bfcdf0, #cabff0, #e2bff0);
 }
 
@@ -236,7 +251,6 @@ div.a {
 .videos {
   float: left;
   width: 33.33%;
-  padding: 10px;
 }
 
 /* Clear floats after the columns */
