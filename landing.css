@@ -85,14 +85,13 @@ body {
   font-family: "Padauk";
   font-size: 23px;
 }
-.column {
+ .column {
   float: left;
   width: 33.33%;
   padding: 10px;
   height: 460px;
   background-color: #62436C;
-  font-family: "Padauk";
-  font-size: 18px;	
+  font-family: "Padauk"	
   color: white;
 }
 .row:after {
@@ -108,7 +107,7 @@ body {
   text-align: center;
 }
 .row p, .column p {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 #amanda {
