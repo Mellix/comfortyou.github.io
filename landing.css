@@ -108,6 +108,7 @@ body {
   color: white;	
 }
 .row p, .column p {
+  font-family: "Padauk";	
   color: white;	
   font-size: 18px;
   text-align: center;
