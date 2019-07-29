@@ -70,13 +70,6 @@ i:hover {
   font-size: 36px;
 }
 
-#gifs-rows img {
-  cursor: pointer;
-}
-#gifs-rows .gif-file {
-  display:none;
-}
-
 /*This is the formatting for the flexbox */
 * {
   box-sizing: border-box;
