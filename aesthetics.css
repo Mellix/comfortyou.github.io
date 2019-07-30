@@ -264,4 +264,5 @@ div.a {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .videos {
-    width: 100%;
+    width: 100%;}
+}
