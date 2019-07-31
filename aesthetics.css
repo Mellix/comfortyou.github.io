@@ -266,3 +266,14 @@ div.a {
   .videos {
     width: 100%;}
 }
+
+.button{
+  background-color: #AFAAB7;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
