@@ -1,7 +1,7 @@
 # comfortyou.github.io
 Final project for girls who code!
 
-index.html & landing.css are for the home page
+index.html & landing.css are for the home page <br>
 awareness.html & aesthetics.css are for the info page
 tipspage.html & tips_stylesheet.css are for the tips page
 relaxpage.html & relax_stylesheet.css & relax_script.js are for the peace page
